@@ -14,22 +14,17 @@ public class FibonnicciSeries {
 		
 		System.out.println("Print Fibbinocci series for first 11 numbers");
 		
-		//System.out.println(sum);
-		//System.out.println(secNum);
-		
+		System.out.print(sum + " " +secNum);
+				
 		//Writing the logic here
 		for(int i = 0; i<= 11-1; i++)
 		{
-			
 			sum = firstNum + secNum;
 			firstNum = secNum;
 			secNum = sum;
-			System.out.println(sum);
-			
+			System.out.print(" " +sum);
 						
 		}
-		
-				
 
 	}
 
