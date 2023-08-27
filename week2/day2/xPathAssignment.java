@@ -17,7 +17,7 @@ public class xPathAssignment {
 		6. Click on Leads(Use Text based)
 		 * */
 		ChromeDriver driver = new ChromeDriver();
-		//		1. Launch http://leaftaps.com/opentaps
+		//1. Launch http://leaftaps.com/opentaps
 		driver.get("http://leaftaps.com/opentaps/control/main");
 		//Maximize the Browser window:
 		driver.manage().window().maximize();
